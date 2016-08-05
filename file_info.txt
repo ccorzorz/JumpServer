@@ -1,0 +1,14 @@
+目录结构介绍:
+
+|____bin    主程序入口
+| |____init_database.py     初始化数据入口
+| |____js.py                jump_server入口
+|____db     数据库相关
+| |____db_strut.py      数据库结构表
+|____modules            程序模块相关
+| |____batch_op.py      批量命令操作模块
+| |____batch_upload.py  批量上传文件模块
+| |____db_fetch.py      数据查询模块
+| |____jump_run.py      查询结果数据处理模块
+| |____jump_server.py   tty交互模块
+| |____logger.py        日志写入模块
